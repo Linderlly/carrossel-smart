@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Projects · Filamentos 3D</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- 1) DADOS -->
+    <script defer src="data/images.js"></script>
+    <script defer src="data/products.js"></script>
+
+    <!-- 2) HELPERS -->
+    <script defer src="js/theme.js"></script>
+    <script defer src="js/placeholder.js"></script>
+    <script defer src="js/remove-white-bg.js"></script>
+    <script defer src="js/card.js"></script>
+
+    <!-- 3) RENDER -->
+    <script defer src="js/carousel.js"></script>
+
+    <!-- 4) ORQUESTRAÇÃO -->
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Smart Projects</div>
+        <div class="header-links">
+            <button id="themeToggle" class="theme-toggle" aria-label="Alternar tema">
+                <span class="icon-sun">☀️</span>
+                <span class="icon-moon">🌙</span>
+            </button>
+            <a href="https://www.smartprojectsbrasil.com.br/" target="_blank" rel="noopener">
+                🌐 Site Oficial
+            </a>
+            <a href="https://www.instagram.com/smartprojectsbrasil/" target="_blank" rel="noopener" class="instagram">
+                📷 Instagram
+            </a>
+        </div>
+    </header>
+
+    <div class="page-title">
+        <h1>Filamentos para Impressão 3D</h1>
+    </div>
+
+    <section class="carousel-section" id="carouselSection">
+        <div class="carousel-row">
+            <div class="carousel-track left speed-1" id="row1"></div>
+        </div>
+        <div class="carousel-row">
+            <div class="carousel-track right speed-2" id="row2"></div>
+        </div>
+        <div class="carousel-row">
+            <div class="carousel-track left speed-3" id="row3"></div>
+        </div>
+        <div class="carousel-row">
+            <div class="carousel-track right speed-4" id="row4"></div>
+        </div>
+    </section>
+
+    <footer>
+        Dados baseados no catálogo público da
+        <a href="https://www.smartprojectsbrasil.com.br/impressora3decnc" target="_blank">Smart Projects Brasil</a>
+        · Atualização automática
+    </footer>
+
+</body>
+</html>
