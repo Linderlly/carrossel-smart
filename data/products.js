@@ -44,12 +44,11 @@ const PRODUCTS = [
     { name: "Filamento PLA 1,75mm 1Kg Rosa Choque MULTFILA",    type: "PLA", variation: null, color: "Rosa Choque",  colorHex: "#ec4899", price: 121.90, imageKey: "multfila-pla-rosa-choque" },
     { name: "Filamento PLA 1,75mm 1Kg Preto MULTFILA",          type: "PLA", variation: null, color: "Preto",        colorHex: "#1e1e1e", price: 121.90, imageKey: "multfila-pla-preto" },
     { name: "Filamento PLA 1,75mm 1Kg Marrom MULTFILA",         type: "PLA", variation: null, color: "Marrom",       colorHex: "#8b5a2b", price: 121.90, imageKey: "multfila-pla-marrom" },
-    { name: "Filamento PLA 1,75mm 1Kg Branco Gesso MULTFILA",   type: "PLA", variation: null, color: "Branco Gesso", colorHex: "#f1f5f9", price: 121.90, imageKey: "multfila-pla-branco-gesso" },
     { name: "Filamento PLA 1,75mm 1Kg Bege Nude MULTFILA",      type: "PLA", variation: null, color: "Bege Nude",    colorHex: "#d4b8a0", price: 121.90, imageKey: "multfila-pla-bege-nude" },
 
     // ==================== MULTFILA — PLA Silk ====================
     { name: "Filamento PLA Silk 1,75mm 1Kg Rainbow Sweet MULTFILA",      type: "PLA", variation: "Silk",          color: "Rainbow Sweet", colorHex: "#f472b6", price: 188.50, imageKey: "multfila-pla-silk-rainbow-sweet" },
-    { name: "Filamento PLA Silk Tricolor 1,75mm 1Kg Verde Roxo Cobre MULTFILA", type: "PLA", variation: "Silk Tricolor", color: "Tricolor", colorHex: "#0d9488", price: 139.15, imageKey: "multfila-pla-silk-tricolor-tricolor" },
+    { name: "Filamento PLA Silk Tricolor 1,75mm 1Kg Dourado Vermelho Azul MULTFILA", type: "PLA", variation: "Silk Tricolor", color: "Tricolor", colorHex: "#0d9488", price: 139.15, imageKey: "multfila-pla-silk-tricolor-dourado-vermelho-azul" },
 
     // ==================== MULTFILA — PLA Matte ====================
     { name: "Filamento PLA Matte 1,75mm 1Kg Terracota MULTFILA",        type: "PLA", variation: "Matte", color: "Terracota",        colorHex: "#c2410c", price: 125.00, imageKey: "multfila-pla-matte-terracota" },
@@ -74,7 +73,7 @@ const PRODUCTS = [
     { name: "Filamento ABS 1,75mm 1Kg Vermelho MULTFILA",       type: "ABS", variation: null, color: "Vermelho", colorHex: "#dc2626", price: 109.00, imageKey: "multfila-abs-vermelho" },
 
     // ==================== DynaLabs — PLA ====================
-    { name: "Filamento PLA 1,75mm 1Kg Laranja DynaLabs",        type: "PLA", variation: null, color: "Laranja", colorHex: "#f97316", price: 132.00, imageKey: "dynalabs-pla-laranja" },
+    { name: "Filamento PLA 1,75mm 1Kg Laranja Fluo DynaLabs",        type: "PLA", variation: null, color: "Laranja", colorHex: "#f97316", price: 132.00, imageKey: "dynalabs-pla-laranja-fluo" },
     { name: "Filamento PLA 1,75mm 1Kg Verde DynaLabs",          type: "PLA", variation: null, color: "Verde",   colorHex: "#22c55e", price: 132.00, imageKey: "dynalabs-pla-verde" },
     { name: "Filamento PLA 1,75mm 1Kg Cobre DynaLabs",          type: "PLA", variation: null, color: "Cobre",   colorHex: "#b87333", price: 132.00, imageKey: "dynalabs-pla-cobre" },
 
@@ -84,11 +83,6 @@ const PRODUCTS = [
     // ==================== DynaLabs — PETG ====================
     { name: "Filamento PETG 1,75mm 1Kg Branco DynaLabs",        type: "PETG", variation: null, color: "Branco", colorHex: "#f8fafc", price: 128.00, imageKey: "dynalabs-petg-branco" },
     { name: "Filamento PETG 1,75mm 1Kg Preto DynaLabs",         type: "PETG", variation: null, color: "Preto",  colorHex: "#111",    price: 128.00, imageKey: "dynalabs-petg-preto" },
-
-    // ==================== DynaLabs — Nylon6 ====================
-    { name: "Filamento Nylon6 1,75mm 1Kg Preto DynaLabs",       type: "Nylon6", variation: null, color: "Preto",   colorHex: "#1a1a1a", price: 228.00, imageKey: "dynalabs-nylon6-preto" },
-    { name: "Filamento Nylon6 1,75mm 1Kg Natural DynaLabs",     type: "Nylon6", variation: null, color: "Natural", colorHex: "#e8d5b7", price: 228.00, imageKey: "dynalabs-nylon6-natural" },
-    { name: "Filamento Nylon6 1,75mm 1Kg Branco DynaLabs",      type: "Nylon6", variation: null, color: "Branco",  colorHex: "#f8fafc", price: 228.00, imageKey: "dynalabs-nylon6-branco" },
 
     // ==================== GTMax3D — PETG ====================
     { name: "Filamento PETG 1,75mm 1Kg Roxo GTMax3D",           type: "PETG", variation: null, color: "Roxo",    colorHex: "#8b5cf6", price: 128.00, imageKey: "gtmax3d-petg-roxo" },

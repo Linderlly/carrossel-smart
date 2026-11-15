@@ -47,12 +47,14 @@ const IMAGES = {
     "multfila-pla-rosa-choque":    "multfila-pla-rosa-choque.jpg",
     "multfila-pla-preto":          "multfila-pla-preto.jpg",
     "multfila-pla-marrom":         "multfila-pla-marrom.jpg",
-    "multfila-pla-branco-gesso":   "multfila-pla-branco-gesso.jpg",
     "multfila-pla-bege-nude":      "multfila-pla-bege-nude.jpg",
 
     // ============ MULTFILA — PLA Silk ============
     "multfila-pla-silk-rainbow-sweet":    "multfila-pla-silk-rainbow-sweet.jpg",
-    "multfila-pla-silk-tricolor-tricolor":"multfila-pla-silk-tricolor-tricolor.jpg",
+    "multfila-pla-silk-tricolor-dourado-vermelho-azul":   "multfila-pla-silk-tricolor-dourado-vermelho-azul.jpg",
+    "multfila-pla-silk-tricolor-vermelho-azul-verde":   "multfila-pla-silk-tricolor-vermelho-azul-verde.jpg",
+    "multfila-pla-silk-tricolor-vermelho-dourado-roxo":   "multfila-pla-silk-tricolor-vermelho-dourado-roxo.jpg",
+    "multfila-pla-silk-tricolor-verde-roxo-cobre":   "multfila-pla-silk-tricolor-verde-roxo-cobre.jpg",
 
     // ============ MULTFILA — PLA Matte ============
     "multfila-pla-matte-terracota":       "multfila-pla-matte-terracota.jpg",
@@ -73,11 +75,11 @@ const IMAGES = {
     "multfila-petg-vermelho":      "multfila-petg-vermelho.jpg",
 
     // ============ MULTFILA — ABS ============
-    "multfila-abs-preto":          "multfila-abs-preto.jpg",
     "multfila-abs-vermelho":       "multfila-abs-vermelho.jpg",
+    "multfila-abs-preto":          "multfila-abs-preto.jpg",
 
     // ============ DynaLabs — PLA ============
-    "dynalabs-pla-laranja":        "dynalabs-pla-laranja.jpg",
+    "dynalabs-pla-laranja-fluo":        "dynalabs-pla-laranja-fluo.jpg",
     "dynalabs-pla-verde":          "dynalabs-pla-verde.jpg",
     "dynalabs-pla-cobre":          "dynalabs-pla-cobre.jpg",
 
@@ -88,10 +90,6 @@ const IMAGES = {
     "dynalabs-petg-branco":        "dynalabs-petg-branco.jpg",
     "dynalabs-petg-preto":         "dynalabs-petg-preto.jpg",
 
-    // ============ DynaLabs — Nylon6 ============
-    "dynalabs-nylon6-preto":       "dynalabs-nylon6-preto.jpg",
-    "dynalabs-nylon6-natural":     "dynalabs-nylon6-natural.jpg",
-    "dynalabs-nylon6-branco":      "dynalabs-nylon6-branco.jpg",
 
     // ============ GTMax3D — PETG ============
     "gtmax3d-petg-roxo":           "gtmax3d-petg-roxo.jpg",
@@ -119,6 +117,7 @@ const IMAGES = {
 
     // ============ 3D FILA — PLA ============
     "3dfila-pla-azul":             "3dfila-pla-azul.jpg",
+    "3dfila-pla-branco-gesso":     "3dfila-pla-branco-gesso.jpg",
 
     // ============ 3D FILA — PLA Silk ============
     "3dfila-pla-silk-cobre":       "3dfila-pla-silk-cobre.jpg",
@@ -128,9 +127,11 @@ const IMAGES = {
     "3dfila-petg-xt-blue-metal":   "3dfila-petg-xt-blue-metal.jpg",
 
     // ============ Bambu Lab — PLA Lite ============
-    "bambu-pla-lite-amarelo":      "bambu-pla-lite-amarelo.jpg",
+    "bambu-pla-lite-amarelo-escuro":      "bambu-pla-lite-amarelo-escuro.jpg",
     "bambu-pla-lite-azul-ciano":   "bambu-pla-lite-azul-ciano.jpg",
     "bambu-pla-lite-verde":        "bambu-pla-lite-verde.jpg",
+    "bambu-pla-lite-amarelo":      "bambu-pla-lite-amarelo.jpg",
+    "bambu-pla-lite-azul":         "bambu-pla-lite-azul.jpg",
 
     // ============ Bambu Lab — PLA básico ============
     "bambu-pla-bronze":            "bambu-pla-bronze.jpg",

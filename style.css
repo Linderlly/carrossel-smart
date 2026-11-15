@@ -225,6 +225,11 @@ header {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     will-change: transform;
+    cursor: grab;
+}
+
+.carousel-track:active {
+    cursor: grabbing;
 }
 
 .carousel-track.left  { animation-name: scrollLeft; }

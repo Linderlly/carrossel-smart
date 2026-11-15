@@ -1,9 +1,5 @@
 /* ============================================================
    CARD — cria o DOM de um produto individual
-   Depende de:
-     - data/images.js       (IMAGES, IMAGES_BASE_PATH)
-     - js/placeholder.js    (createPlaceholderSvg)
-     - js/remove-white-bg.js (removeWhiteBackground)
    ============================================================ */
 
 function resolveImageUrl(imageKey) {
@@ -13,12 +9,6 @@ function resolveImageUrl(imageKey) {
     return IMAGES_BASE_PATH + file;
 }
 
-/**
- * Troca o src de uma <img> já inserida no DOM, garantindo que:
- * - a nova imagem esteja decodificada antes de aparecer;
- * - não haja "flash" nem repaint tardio;
- * - se a nova falhar, a antiga permanece visível.
- */
 async function swapImageSmooth(imgEl, newSrc) {
     if (!newSrc || imgEl.src === newSrc) return;
     try {
@@ -54,7 +44,9 @@ function createCard(product) {
     if (imageUrl) {
         const img = document.createElement('img');
         img.alt = product.name;
-        img.loading = 'lazy';
+        // CORREÇÃO: Removido o loading="lazy". 
+        // O lazy loading falha em carrosséis com animação CSS contínua, 
+        // pois o navegador entende que o elemento nunca entra na tela.
         img.decoding = 'async';
         img.src = imageUrl;
 
@@ -62,8 +54,6 @@ function createCard(product) {
             imgDiv.innerHTML = createPlaceholderSvg(product.colorHex, product.type);
         };
 
-        // Remove fundo em background, com cache por imageKey.
-        // Só troca o src quando o resultado já estiver decodificado.
         removeWhiteBackground(imageUrl, product.imageKey, 240, 20)
             .then((transparentUrl) => swapImageSmooth(img, transparentUrl))
             .catch(() => { /* mantém original */ });
